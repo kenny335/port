@@ -1,6 +1,68 @@
 .App {
   text-align: center;
+  
 }
+
+
+
+.header-color {
+  background: #23074d;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+.resumeHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.nameText {
+  font-family: 'Press Start 2P'
+}
+
+.languagesText {
+  font-family: 'Press Start 2P'
+}
+
+.jumbo {
+  width: 70%;
+  box-shadow: 20px 10px;
+  border: 1px solid black
+  
+}
+
+.bold {
+  font-weight: bold
+}
+
+
+.columnIt{
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+.languages {
+  font-family: 'Schoolbell'
+}
+
+.content {
+  display: flex;
+  justify-content: center
+}
+.resumePaper {
+  text-align: left;
+  height: 50%;
+  background-color: white;
+  margin: 100px;
+  width: 900px;
+  height: auto;
+  padding: 20px;
+  box-shadow:12 20
+  
+}
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -23,6 +85,13 @@
   color: #61dafb;
 }
 
+.drawer {
+  background: #8A2387;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
