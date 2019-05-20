@@ -25,14 +25,6 @@ class App extends React.Component {
                 <Link to="contactme">Contact Me</Link>
             </Navigation>
         </Header>
-        <Drawer style={{color:"blue", backgroundColor:"lightgray"}} title="My Portfolio">
-            <Navigation>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-            </Navigation>
-        </Drawer>
         <Main/>
         <Content />
         
