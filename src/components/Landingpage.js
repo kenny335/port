@@ -23,7 +23,17 @@ class Landingpage extends React.Component {
             </div>
             </div>
             </div>
-  
+            <div className="specialty">
+                <div>
+                    <div style={{paddingBottom:50}}>Create responsive websites and mobile apps</div>
+                    <img style={{height:"80%"}}src="https://cdn2.iconfinder.com/data/icons/circle-icons-1/64/browser-512.png" />
+                </div>
+                <div>
+                    <div style={{paddingBottom:50}}>Create responsive websites and mobile apps</div>
+                    <img src="https://static1.squarespace.com/static/5c8fcdc794d71ad6ad4641df/t/5c93d0d48165f523173543d2/1553191129492/device_intro.png" />
+                </div>
+                
+            </div>
         </div>
             
         );
