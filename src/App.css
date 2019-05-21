@@ -3,21 +3,11 @@
   
 }
 
-.hero {
-  background:url("https://wallpaperstudio10.com/static/wpdb/wallpapers/1920x1080/172011.jpg");
-  height: 100%;
-  color: white;
-  opacity: .60;
-  margin-top: -30px
-}
 
-.sticky {
-  position: fixed;
-  width: 100%;
-  left: 0;
-  top: 0;
-  z-index: 100;
-  border-top: 0;
+
+.description {
+  color: aquamarine;
+  font-size: 50px
 }
 
 
