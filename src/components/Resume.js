@@ -1,4 +1,6 @@
 import React from "react";
+import Toast from "./Toast";
+import $ from "jquery";
 
 
 class Resume extends React.Component {
@@ -60,7 +62,8 @@ class Resume extends React.Component {
                         <li>Detail oriented, motivated, deadline driven and analytical</li>
                     </ul>
                 </div>
-
+                </div>
+                <div>
                 </div>
             </div>
             
