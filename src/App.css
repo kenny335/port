@@ -16,10 +16,16 @@
   color: white;
   display: flex;
   flex-direction: row;
-  font-size: 20px;
+  font-size: 3vh;
   font-weight: bold;
   padding: 30px;
-  justify-content: space-around
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.specialtyImage {
+  height: 60%;
+  width: 30%
 }
 
 .header-color {
@@ -27,6 +33,13 @@
   background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
+}
+
+.heroContainer {
+  background-image: url("http://www.4usky.com/data/out/53/164464682-lake-wallpapers.jpg");
+  width:"70%";
+  height:"auto";
+  opacity: .60
 }
 
 .resumeHeader {
@@ -41,6 +54,10 @@
 
 .languagesText {
   font-family: 'Press Start 2P'
+}
+
+.scrollContainer {
+  scroll-behavior: smooth
 }
 
 .jumbo {
@@ -78,6 +95,10 @@
   padding: 20px;
   box-shadow:12 20
   
+}
+
+.specialtytextstyle {
+  font-family: 'Rancho'
 }
 
 

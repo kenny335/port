@@ -40,17 +40,24 @@ class Resume extends React.Component {
                         <li>Create responsive user interface for web and mobile apps</li>
                         <li>Find alternative technologies to use</li>
                     </ul>
+                    <div style={{display:"flex", flexDirection:"column"}}>
                     <div style={{display:"flex", flexDirection:"row"}}>
                     <div className="bold" style={{fontSize:"15px"}}>Deep Foods</div>
                     <div style={{marginLeft:5}}>(Feb 2017-May 2018)</div>
+                    </div>
+                    <div className="bold" style={{fontSize:"15px"}}>Supply Chain Manager, Union, NJ</div>
                     </div>
                     <ul>
                     <li>Create and Issue new purchase orders</li>
                     <li>Coordinate with others to forecast sales and inventory</li>
                     </ul>
-                    <div style={{display:"flex", flexDirection:"row"}}>
-                    <div className="bold" style={{fontSize:"15px"}}>Sherwin Williams</div>
-                    <div style={{marginLeft:5}}>(May 2016-Feb 2017)</div>
+                    <div>
+                        <div style={{display:"flex", flexDirection:"row"}}>
+                        <div className="bold" style={{fontSize:"15px"}}>Sherwin Williams</div>
+                        <div style={{marginLeft:5}}>(May 2016-Feb 2017)</div>
+                        </div>
+                        <div className="bold" style={{fontSize:"15px"}}>Inventory Coordinator, Moonachie, NJ</div>
+                    
                     </div>
                     <ul>
                         <li>Coordinate with Suppliers to ensure economies of Scale</li>
