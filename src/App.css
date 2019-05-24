@@ -4,7 +4,11 @@
 }
 
 
+.summaryContainer {
+  color: aliceblue;
+  font-family: 'Rancho';
 
+}
 .description {
   color: aquamarine;
   font-size: 50px
@@ -18,9 +22,9 @@
   flex-direction: row;
   font-size: 3vh;
   font-weight: bold;
-  padding: 30px;
   justify-content: space-around;
   margin-top: 50px;
+  padding: 50px
 }
 
 .specialtyImage {

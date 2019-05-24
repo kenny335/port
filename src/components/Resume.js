@@ -1,6 +1,5 @@
 import React from "react";
-import Toast from "./Toast";
-import $ from "jquery";
+
 
 
 class Resume extends React.Component {
