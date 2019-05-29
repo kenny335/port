@@ -32,6 +32,9 @@
   width: 30%
 }
 
+.aboutContainer {
+  color:white
+}
 .header-color {
   background: #23074d;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */

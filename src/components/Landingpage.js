@@ -1,9 +1,15 @@
 import React from "react";
 import LazyHero from 'react-lazy-hero';
-import Summary from "./Summary"
+import Summary from "./Summary";
+import {TweenLite} from "gsap"
 
 class Landingpage extends React.Component {
 
+
+    toggle=()=> {
+        TweenLite.to("#tron", 5, {x:600});
+        
+    }
 
 
     render() {
@@ -13,7 +19,7 @@ class Landingpage extends React.Component {
             <LazyHero style={{minHeight:"90vh", opacity:0.80}} imageSrc="https://www.independent.co.ug/wp-content/uploads/2017/11/forest.jpg">
                 <h1>Welcome to my profile</h1>
                 <h1>Please have a look around</h1>
-                <button onClick={this.scrollToContent} className="btn btn-success btn-lg"><a href="#tron">See my profile</a></button>
+                <button onClick={this.toggle} className="btn btn-success btn-lg"><a href="#tron">See my profile</a></button>
             </LazyHero>
         </div>
             <img style={{margin:"50px", height:"300px", width:"300px", borderRadius:"50%", border:"2px solid black"}} src="https://media.licdn.com/dms/image/C5103AQHpdHxmwj6c9w/profile-displayphoto-shrink_200_200/0?e=1564012800&v=beta&t=QHwArkHucm5Nc6tzR2qhAPJ2hUcQ1Nt0WM2ShpK5e70"/>
