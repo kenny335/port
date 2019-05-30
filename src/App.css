@@ -8,6 +8,16 @@
   color: white
 }
 
+.cardMargin {
+  padding-top: 50
+}
+
+.cardB {
+  color: red;
+  width: 400px;
+  height: 300px
+}
+
 .box {
   width: 100px;
   height: 100px;
@@ -176,6 +186,8 @@ background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+
 
 
 }
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
