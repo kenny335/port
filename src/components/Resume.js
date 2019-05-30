@@ -1,10 +1,11 @@
 import React from "react";
+import AppsExperience from "./AppsExperience"
 
 class Resume extends React.Component {
 
     render() {
         return(
-            <div>
+            <div style={{display:"flex", flexDirection:"row"}}>
                 <div className="resumePaper">
                 <div className="resumeHeader">
                     <h3 className="bold">Kenny Quach</h3>
@@ -66,6 +67,7 @@ class Resume extends React.Component {
                     </ul>
                 </div>
                 </div>
+                <AppsExperience/>
                 <div>
                 </div>
             </div>

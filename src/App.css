@@ -2,6 +2,18 @@
   text-align: center;
 }
 
+.projectsHeader {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMYYf9mhOAf6RItorzojV6sQ-Z9mIrRACB_uImDPTdyAM3d19cMw");
+  font-size: 12px;
+  color: white
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: #ff1c68;
+  transform-origin: 50% 50%;
+}
 
 .summaryContainer {
   color: aliceblue;
@@ -13,6 +25,15 @@
   font-size: 50px
 }
 
+.socialIcons:hover {
+  height: 100
+}
+
+
+.emailText:hover {
+  font-size: 60;
+  cursor:pointer
+}
 .specialty {
   background-color: #282c34;
   height: auto;
@@ -27,8 +48,8 @@
 }
 
 .specialtyImage {
-  height: 60%;
-  width: 30%
+  height: 100px;
+  width: 100px
 }
 
 .aboutContainer {

@@ -1,20 +1,14 @@
 import React from "react";
 import LazyHero from 'react-lazy-hero';
 import Summary from "./Summary";
-import {TweenLite} from "gsap"
+import Component1 from "./Component1";
 
 class Landingpage extends React.Component {
-
-
-    toggle=()=> {
-        TweenLite.to("#tron", 5, {x:600});
-        
-    }
-
 
     render() {
         return(
         <div>
+            <Component1/>
             <div>
             <LazyHero style={{minHeight:"90vh", opacity:0.80}} imageSrc="https://www.independent.co.ug/wp-content/uploads/2017/11/forest.jpg">
                 <h1>Welcome to my profile</h1>
@@ -38,18 +32,18 @@ class Landingpage extends React.Component {
             <div className="specialty">
                 <div>
                     <div className="specialtytextstyle" style={{marginBottom:"20px"}}>Creating responsive websites and mobile apps</div>
-                    <img className="specialtyImage" src="https://webkul.com/wp-content/uploads/2018/04/illustration-expertise-mobile-apps.png?v=1" />
+                    <img className="specialtyImage" src="https://pngimage.net/wp-content/uploads/2018/06/web-application-png-2.png" />
                 </div>
                 <div>
                     <div className="specialtytextstyle" style={{marginBottom:"20px"}}>Discovering new trends to incorporate into apps</div>
-                    <img className="specialtyImage" src="http://pngriver.com/wp-content/uploads/2018/03/Download-Technology-PNG-Pic-For-Designing-Projects.png" />
+                    <img className="specialtyImage" src="https://resourced.prometheanworld.com/wp-content/uploads/2019/01/Five_educational_Trends-460x425.png" />
                 </div>
                 <div>
                     <div className="specialtytextstyle" style={{marginBottom:"20px"}}>Using various database systems to store data</div>
                     <img className="specialtyImage" src="https://s3-us-west-2.amazonaws.com/cdn.viewpoint.corporate/illustrations/Isometrics-Cropped/Isometrics-Desktop-Checklist-600px.png" />
                 </div>
             </div>
-            <div style={{height:"100px"}}>
+            <div style={{height:"50px"}}>
 
             </div>
             <Summary/>

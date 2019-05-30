@@ -1,12 +1,11 @@
 import React from "react";
+import Component2 from "./Component2"
 
 
 class Aboutme extends React.Component {
 
 
     render() {
-
-        var bg=require("../Pics/sunset-4223901_1920.jpg");
 
         return(
             <div className="aboutContainer">
@@ -32,24 +31,8 @@ class Aboutme extends React.Component {
                     </div>  
                 
                 </div>
-                <div className="verlaRound">
-                <h1>My Strengths in Web Dev</h1>
-                  <div style={{display:"flex", flexDirection:"row",margin:15, justifyContent:"space-around"}}>
-                      <div>
-                          <img src="https://www.labmanager.com/media/Management%20Tips/Sep19Deadlines.jpg" style={{width:400, height:300, border:"2px solid orange"}}/>
-                      <div>Ensuring that deadlines are counted for and all work is planned out efficiently</div>
-                      </div>
-                      <div>
-                          <img src="https://cdn.dogtownmedia.com/wp-content/uploads/2016/06/12193941/scalable-app-development-strategy.jpg" style={{width:400, height:300, border:"2px solid orange"}}/>
-                      <div>Using best practices to ensure that apps are scalable </div>
-                      </div>
-                      <div>
-                          <img src="https://bhamwebdesign.com/wp-content/uploads/2017/03/UI-Example-Edited.svg" style={{width:400, height:300, border:"2px solid orange", backgroundColor:"black"}}/>
-                      <div>Finding ways to improve user interface experience</div>
-                      </div>
-                    </div>  
-                
-                </div>
+                <div className="verlaRound"></div>
+               
                 <div className="verlaRound">
                 <h1>My Favorite Technologies to Use</h1>
                   <div style={{display:"flex", flexDirection:"row",margin:20, justifyContent:"space-around"}}>
