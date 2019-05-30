@@ -9,7 +9,7 @@ class Resume extends React.Component {
                 <div className="resumePaper">
                 <div className="resumeHeader">
                     <h3 className="bold">Kenny Quach</h3>
-                        <p>700 Newark Ave, Jersey City,NJ 07306 | Cell: 917-257-0115 | E-Mail: kq22@scarletmail.rutgers.edu</p>
+                        <p>700 Newark Ave, Jersey City,NJ 07306 | Cell: 917-257-0115 | <a href="mailto:kq22@scarletmail.rutgers.edu?subject=Portfolio">kq22@scarletmail.rutgers.edu</a></p>
                 </div>
                 <hr/>
                 <div className="resumeBody">
