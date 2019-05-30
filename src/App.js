@@ -28,7 +28,8 @@ class App extends React.Component {
     <Layout>
         <Header transparent title="My Portfolio" style={{color: 'white', backgroundColor:"black", position:"fixed",top:0}}>
             <Navigation>
-                <Link toggle={this.toggle} to="resume">Resume</Link>
+                <Link to ="/">Home</Link>
+                <Link to="resume">Resume</Link>
                 <Link to="aboutme">About</Link>
                 <Link to="projects">Projects</Link>
                 <Link to="contactme">Contact Me</Link>

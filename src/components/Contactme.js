@@ -13,10 +13,16 @@ class Contactme extends React.Component {
             </div>
             <div className="heroContainer">
             <div>
-                <div style={{height:800, marginTop:-27, fontSize:25, display:"flex", flexDirection:"column", fontWeight:"bold", color:"tomato", justifyContent:"center"}}>
-                        <div style={{padding:10}}>Phone: (917)257-0115</div>
-                        <div style={{padding:10}}>Email: kq22@scarletmail.rutgers.edu</div>
-                        <div style={{padding:10}}><a href="https://www.linkedin.com/in/kennyquach/">My Linkedin</a></div>
+                <div style={{height:800, marginTop:-27, fontSize:25, display:"flex", flexDirection:"column", fontWeight:"bold", color:"black", justifyContent:"center"}}>
+                        <div style={{paddingBottom:30}}>Phone: (917)257-0115</div>
+                        <a href="mailto:kq22@scarletmail.rutgers.edu?subject=Portfolio" style={{fontWeight:"bold"}}>Email:kq22@scarletmail.rutgers.edu</a> 
+                    <div style={{display:"flex", flexDirection:"row", justifyContent:"space-around", margin:20}}>
+                    <a href="https://www.linkedin.com/in/kennyquach/" target="_blank"><img style={{width:50}} src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"/></a>
+                        <a href="https://twitter.com/developer335?lang=en" target="_blank"><img style={{width:70}} src="http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c53e.png"/></a>
+                        <a href="https://github.com/kenny335" target="_blank"><img style={{width:70}} src="https://github.githubassets.com/images/modules/logos_page/Octocat.png"/></a>
+                        
+
+                    </div>
                     </div>
             </div> 
             </div>

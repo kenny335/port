@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  
 }
 
 
@@ -33,7 +32,20 @@
 }
 
 .aboutContainer {
-  color:white
+  color:white;
+  margin-top: 10px;
+}
+
+.tangerineText {
+  font-family: 'Tangerine'
+}
+
+
+.aboutMeImage {
+  width: 30%;
+  height:80%;
+  border: 2px solid orange;
+  
 }
 .header-color {
   background: #23074d;  /* fallback for old browsers */
@@ -47,6 +59,12 @@
   width:"70%";
   height:"auto";
   opacity: .60
+}
+
+.verlaRound {
+  font-family: 'Josefin Slab', serif;
+  font-size: 17px;
+  font-weight: bold
 }
 
 .resumeHeader {
