@@ -38,6 +38,14 @@ toggleCatgegories=()=> {
         <button className="btn btn-success"><a href="https://eloquent-mahavira-871f5c.netlify.com/" target="_blank">Check it out</a></button>
       </div>
     </div>
+    <div class="card">
+      <img src="https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/12/59/a0/1259a072-cf88-a2cd-c514-14cab7161f01/source/512x512bb.jpg" class="card-img-top" alt="..."/>
+      <div class="card-body">
+        <h5 class="card-title">ToDo App</h5>
+        <p class="card-text">Task list. Add and delete as you go</p>
+        <button className="btn btn-success"><a href="https://elated-bartik-b91499.netlify.com" target="_blank">Check it out</a></button>
+      </div>
+    </div>
   </div>
   } else if(this.state.activeTab===1) {
     return <h1>jquery</h1>

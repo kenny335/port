@@ -1,9 +1,18 @@
 import React from "react";
-import Component2 from "./Component2"
+import $ from "jquery";
+
 
 
 class Aboutme extends React.Component {
 
+
+    state={
+        isVisible:false
+    }
+
+    componentDidMount=()=> {
+        $(".verlaRound").fadeOut(1000).slideDown().css("backgroundColor","black");
+    }
 
     render() {
 

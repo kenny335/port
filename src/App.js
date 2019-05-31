@@ -12,12 +12,6 @@ class App extends React.Component {
     constructor(props) {
         super(props);
     }
-
-    toggle=()=> {
-        TweenLite.to(".resumePaper", 5, {x:600});
-    }
-   
-  
   
   render(){
       console.log(this.props)
