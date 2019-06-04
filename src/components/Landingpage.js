@@ -23,7 +23,7 @@ class Landingpage extends React.Component {
                 <h3 style={{fontWeight:"bold"}}>Front-End Web Developer</h3>
                 <hr/>
             <div className="languages">
-                <h3>HTML5 | CSS | JavaScipt | nodeJS + Express | jQuery | mySQL | API | ReactJS | React Native | Bootstrap</h3>
+                <h3>HTML5 | CSS | JavaScipt | nodeJS + Express | jQuery | mySQL | API | ReactJS | React Native | Bootstrap | Angular | MongoDB </h3>
             </div>
             </div>
             </div>
